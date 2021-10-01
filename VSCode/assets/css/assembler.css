@@ -1,4 +1,11 @@
 /* Here you can write your CSS code */
+/*Overview page*/
+
+
+/*----------------------------------------*/
+#overview{
+    color: rgba(59, 155, 109, 1);
+}
 
 a:not(.ms-Button) {
     color: rgba(59, 155, 109, 1);
