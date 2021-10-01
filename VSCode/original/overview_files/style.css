@@ -2163,7 +2163,7 @@ only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
         width: 100%
     }
 }
-.extensions .gallery-item-card {
+/* .extensions .gallery-item-card {
     background-color: #fff;
     border: #dedede solid 1px;
     color: #000;
@@ -2177,7 +2177,7 @@ only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden
-}
+} */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .extensions .gallery-item-card {
         height: 230px
@@ -2562,7 +2562,7 @@ only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
 }
 #docs-navbar>.nav>.active>a,
 #docs-navbar>.nav>.active .active>a {
-    color: #0071BC !important
+    color: rgba(59, 155, 109, 1) !important;
 }
 #docs-navbar>.nav>.active>a:not(.area),
 #docs-navbar>.nav>.active .active>a {
@@ -2615,12 +2615,12 @@ only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
     font-size: 14px;
     color: #707070
 }
-.docs .feedback .widget {
+/*.docs .feedback .widget {
     background-color: #E1F1FF;
     padding: 20px;
     font-size: 1.3rem;
     margin-top: 40px
-}
+}*/
 .docs .feedback h3 {
     font-weight: 600;
     font-size: 1.6rem;
@@ -2638,7 +2638,7 @@ only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
 .docs .feedback .buttons h3:first-child {
     margin-bottom: 20px
 }
-.docs .feedback .buttons button {
+/*.docs .feedback .buttons button {
     background-color: #0066B8;
     color: white;
     border-style: solid;
@@ -2647,7 +2647,7 @@ only screen and (min-width: 1200px) and (min-resolution: 192dpi) {
     font-size: 1.4rem;
     padding: 5px 20px;
     margin-right: 5px
-}
+}*/
 .docs .feedback .buttons button:hover {
     background-color: #005ba4
 }
