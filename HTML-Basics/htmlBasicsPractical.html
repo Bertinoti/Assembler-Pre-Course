@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatSheets</title>
+    <style>
+        div{
+            padding:20px;
+        }
+        table{
+            text-align: center;
+            width: 100%;
+            height: 75%;
+        }
+        table, th, td{
+            border:1px solid black;
+        }
+        .inputTypes{
+            margin-left: -24ch;
+        }
+        .inputAttr{
+            margin-left: -28ch;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav-bar">
+        <nav style=" margin-left: 45px; border: 1px solid black;">
+            <a href="#Headings" style="text-decoration: none; margin-left: 15px;"><b>Headings</b></a>
+            <a href="#Links" style="text-decoration: none;margin-left: 15px"><b>Links </b></a>
+            <a href="#Images" style="text-decoration: none; margin-left: 15px;"><b>Images </b></a>
+            <a href="#Text" style="text-decoration: none; margin-left: 15px" ><b>Text </b></a>
+            <a href="#Containers" style="text-decoration: none; margin-left: 15px" ><b>Containers</b></a>
+            <a href="#Buttons" style="text-decoration: none; margin-left: 15px" ><b>Buttons</b></a>
+            <a href="#Lists" style="text-decoration: none; margin-left: 15px" ><b>Lists </b></a>
+            <a href="#Grafics" style="text-decoration: none; margin-left: 15px" ><b>Grafics </b></a>
+            <a href="#Rows" style="text-decoration: none; margin-left: 15px" ><b>Rows</b></a>
+            <a href="#Table" style="text-decoration: none; margin-left: 15px" ><b>Tables</b></a>
+            <a href="#Media" style="text-decoration: none; margin-left: 15px" ><b>Medias </b></a>
+            <a href="#FormElements" style="text-decoration: none; margin-left: 15px" ><b>Form Elements</b></a>
+            <a href="#InputTypes" style="text-decoration: none; margin-left: 15px" ><b>Input Types </b></a>
+            <a href="#InputAtrr" style="text-decoration: none; margin-left: 15px" ><b>Input Atrtributes </b></a>
+        </nav><br>
+
+    </div>
+
+    <div id="Headings">
+        <h1>Headings1</h1> <p>&lt;h1&gt; Headings1 &lt;/h1&gt;</p>
+        <h2>Headings2</h2> <p>&lt;h2&gt; Headings1 &lt;/h2&gt;</p>
+        <h3>Headings3</h3> <p>&lt;h3&gt; Headings1 &lt;/h3&gt;</p>
+        <h4>Headings4</h4> <p>&lt;h4&gt; Headings4 &lt;/h4&gt;<p>
+        <h5>Headings5</h5> <p>&lt;h5&gt; Headings5 &lt;/h5&gt;<p>
+        <h6>Headings6</h6> <p>&lt;h6&gt; Headings6 &lt;/h6&gt;</p>
+    </div>
+    <hr>
+
+    <div id="Links">
+        <p>Links</p>
+        <p>One link will open the URL in the same browser tab <br></p> 
+        <a href="https://www.google.com/" target="_self">Google <br></a>
+        <pre>&lt;a href="https://www.google.com/" target="_self"&gt;Google&lt;/a&gt; </pre>
+
+        <p> And the other will be opened in a new browser tab <br></p> 
+        <a href="https://www.google.com/" target="_blank"> Google <br></a>
+        <pre>&lt;a href="https://www.google.com/" target="_blank &gt;Google&lt;/a&gt; </pre>
+
+        <p> One link will refer to an existing ID of the HTML page <br></p>
+        <a href="#Form"> Go to Forms </a>
+        <pre> &lt;a href="#Form"&gt; Go to Forms &lt;/a&lt; </pre>
+    </div>
+    <hr>
+
+    <div id="Images">
+        <p>Images</p>
+        <p>Image with alt attribute</p>
+        <img src="img/teclando.png" alt="teclando full speed">
+        <pre> &lt;img src="img/hacking.png"  alt="teclando full speed" &gt;</pre><br>
+
+        <p>Image with a fixed height and width</p>
+        <img src="img/hacking.png" alt="hacking" width="75%" height="50%">
+        <pre> &lt;img src="img/hacking.png" alt="hacking" width="75%" height="50%"&gt;</pre><br>
+
+        <p> Image as a link </p>
+        <a href="#"><img src="img/illegalsite.png" alt="illegal site" width="35%" ></a>
+        <pre> &lt;a href="#"&gt;&lt;img src="img/illegalsite.png" alt="illegal site" width="35%" &gt;&lt;/a &gt;</pre><br>
+    </div>
+    <hr>
+
+    <div id="Text">
+        <p>Texts </p>
+        <p> Strong Text </p>
+        <strong>Strong </strong>
+        <pre>&lt;strong&gt;Strong Text &lt;/strong&gt;</pre><br>
+
+        <p> Strikethrough Text</p>
+        <strike> Strikethrough </strike>
+        <pre>&lt;Strike&gt; Strikethrough &lt;/strike&gt;</pre><br>
+
+        <p> Italics Text </p>
+        <i> Italics </i>
+        <pre>&lt;i&gt;  Italics &lt;i&gt; </pre><br>
+
+        <p>Subscript Text</p>
+        <sub> Subscript</sub>
+        <pre>&lt;sub&gt; Subscript &gt;/sub&&gt; </pre><br>
+
+        <p>Superscript Text </p>
+        <sup> Superscript </sup>
+        <pre> &lt;sup&gt; Superscript &lt;/sup&gt; </pre><br>
+    </div>
+    <hr>
+    <script>
+        document.getElementById('Containers').focus()
+    </script>
+    <div id="Containers" >
+        <div style="border: 1px solid black" >
+            <h3>Html Page</h3>
+            <div style="border: 1px solid black; margin: 2px;">
+                <p>Nav Container </p>
+                <nav style=" margin-left: 45px; border: 1px solid black;">
+                    <a href="#Headings" style="text-decoration: none; margin-left: 15px;"><b>Headings</b></a>
+                    <a href="#Links" style="text-decoration: none;margin-left: 15px"><b>Links </b></a>
+                    <a href="#Images" style="text-decoration: none; margin-left: 15px;"><b>Images </b></a>
+                    <a href="#Text" style="text-decoration: none; margin-left: 15px" ><b>Text </b></a>
+                </nav><br>
+                <pre style="margin-left: -18ch;" >
+                    &lt;nav style=" margin-left: 45px;"&gt;<br>
+                        &lt;a href="#Headings" style="text-decoration: none; margin-left: 15px;"&gt;&lt;b&gt;Headings &lt;/b&gt;  &lt;/a&gt;<br>
+                        &lt;a href="#Links" style="text-decoration: none;margin-left: 15px"&gt;&lt;b&gt;Links &lt;/b&gt;&lt;/a&gt;<br>
+                        &lt;a href="#Images" style="text-decoration: none; margin-left: 15px;"&gt;&lt;b&gt;Images &lt;/b&gt;&lt;/a&gt;<br>
+                        &lt;a href="#Text" style="text-decoration: none; margin-left: 15px" &gt;&lt;b&gt;Text &lt;/b&gt;&lt;/a&gt;<br>
+                    &lt;/nav&gt;</pre><br>
+            </div>
+
+
+            <section style="border: 1px solid black; padding:5px;">
+                <p>Section Container</p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quas ut explicabo beatae eveniet quis saepe, doloremque rem modi reprehenderit, fugiat voluptatibus voluptatem alias? Reprehenderit dolor perferendis iusto inventore delectus
+                <pre> &lt;section&gt; Lorem ipsum dolor sit, ... &lt;/section&gt;</pre><br>
+
+                <article  style="border: 1px solid black; padding:5px;">
+                <p>Article Container </p>
+                    <header  style="border: 1px solid black; padding:5px;"> "Header" Lorem Ipsum</header>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ullam neque aperiam itaque ratione rerum, vero unde eius expedita, autem possimus temporibus consectetur animi explicabo? Eum nobis non consectetur perferendis.</p>
+                    <pre style="margin-left: -17ch;"> 
+                        &lt;article&gt;
+                            &lt;header&gt; Lorem Ipsum &lt;/header&gt;
+                            &lt;p&gt;Lorem ipsum dolor sit amet ...&lt;/p&gt;
+                        &lt;/article&gt;
+                    </pre><br>
+
+                    <div  style="border: 1px solid black; padding:5px;">
+                        <p>Div Container</p>
+                        <p> lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt consequuntur incidunt quisquam sunt animi repellat quas deserunt molestias qui ab numquam possimus, repellendus, veritatis, eos nulla? Perspiciatis facere quae tenetur.</p>
+                        <pre> &lt;div&gt;Lorem ipsum dolor, ... &lt;/div&gt;</pre><br>
+
+                            <Blockquote cite="https://www.lipsum.com/"  style="border: 1px solid black; padding:5px;">
+                                <p>Blockquote Container</p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum doloremque tenetur fugit et magni, dolor dicta, aperiam tempore quisquam ea, ducimus maiores accusamus amet optio excepturi eos eligendi quae.
+                                <pre>&lt;Blockquote cite="https://www.lipsum.com/"&gt;Lorem ipsum dolor ...&lt;/Blockquote&gt;</pre>
+                            </Blockquote><br>
+
+
+                            <div  style="border: 1px solid black; padding:5px;">
+                                <p>Template Container</p>
+                                <button onclick="showContent()">Show hidden content</button>
+                                <template>
+                                    <img src="img/iGotYou.jpg" width="250" height="250">
+                                </template>
+                                <div id="showhere"></div>
+
+                                <script>
+                                    function showContent() {
+                                        var cont= document.getElementById('showhere')
+                                        var temp = document.getElementsByTagName("template")[0];
+                                        var clon = temp.content.cloneNode(true);
+                                        cont.appendChild(clon);
+                                    }
+                                </script>
+                                <pre>
+                                    &lt;button onclick="showContent()">Show hidden content&lt;/button&gt;
+
+                                    &lt;template&gt;
+                                    &lt;img src="img/iGotYou.jpg" width="250" height="250"&gt;
+                                    &lt;/template&gt;
+                                    &lt;div id="showhere">&lt;/div&gt;<br>
+
+                                    &lt;script&gt;
+                                        function showContent() {
+                                            var cont= document.getElementById('showhere')
+                                            var temp = document.getElementsByTagName("template")[0];
+                                            var clon = temp.content.cloneNode(true);
+                                            cont.appendChild(clon);
+                                        }
+                                    &lt;/script&gt;
+                                </pre><br>
+                            </div>
+                    </div>
+                </article><br>
+            </section>
+
+            <aside  style="border: 1px solid black; padding:5px;">
+                <p>Aside Container</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil vel excepturi natus a deserunt asperiores fuga quasi consequuntur impedit. Aliquid magnam impedit id ab deserunt quam ut accusantium aperiam.</p>
+                <pre> &lt;aside&gt; Lorem ipsum dolor sit amet ... &lt;/aside&gt;</pre><br>
+
+                <div style="border: 1px solid black; padding:5px;">
+                    <p>Paragraphs Container</p>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ullam neque aperiam itaque ratione rerum, vero unde eius expedita, autem possimus temporibus consectetur animi explicabo? Eum nobis non consectetur perferendis.
+                    </p>
+                    <pre> &lt;p &gt; Lorem ipsum dolor sit amet... &lt;/p&gt; </pre></p><br>
+                </div>
+
+                <div style="border: 1px solid black; padding:5px; margin:2px;">
+                    <p>Area Container</p>
+                    <map name="areatest"  >
+                        <img src="img/areapick.png" alt="example Navbar with map" usemap="#areatest">
+                        <area shape="rect" coords="41,34,133,60"  href="#Headings" alt="Headings">
+                        <area shape="rect" coords="173,34,229,54" href="#Links" alt="Links">
+                        <area shape="rect" coords="259,31,341,58"  href="#Images" alt="Images">
+                        <area shape="rect" coords="356,31,410,57" href="#Text" alt="Text">
+                    </map>
+                    <pre style="margin-left: -14ch;">
+                        &lt;map name="areatest"&gt;
+                        &emsp;&lt;img src="img/areapick.png" alt="example Navbar with map" usemap="#areatest"&gt;
+                        &emsp;&lt;area shape="rect" coords="41,34,133,60"  href="#Headings" alt="Headings"&gt;
+                        &emsp;&lt;area shape="rect" coords="173,34,229,54" href="#Links" alt="Links"&gt;
+                        &emsp;&lt;area shape="rect" coords="259,31,341,58"  href="#Images" alt="Images"&gt;
+                        &emsp;&lt;area shape="rect" coords="356,31,410,57" href="#Text" alt="Text"&gt;
+                        &lt;/map&gt;
+                    </pre><br>
+                </div>
+            </aside>
+
+        <footer  style="border: 1px solid black; padding:5px;">
+            <p>Footer Container</p>
+            <p>Authors: Jefferson & Albert </p>
+            <p><a href="mailto:topteam@example.com">topteam@example.com</a></p>
+        <p>
+            &lt;footer&gt;<br>
+                &lt;p&gt;Authors: Jefferson & Albert &lt;/p&gt;<br>
+                &lt;p&gt;&lt;a href="mailto:topteam@example.com">topteam@example.com&lt;/a&gt;&lt;/p&gt;<br>
+            &lt;/footer&gt;
+        </p><br>
+        </footer>
+    </div>
+    <hr>
+
+    <div id="Buttons">
+        <p>Button</p>
+        <Button>This a Button</Button>
+    </div>
+    <hr>
+
+    <div id="Lists">
+    <p> Lists </p>
+        <p> Ordered Lists</p>
+            <ol>
+                <lh>List Head</lh>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            <ol type="A">
+                <lh>List Head</lh>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            <ol type='I'>
+                <lh>List Head</lh>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+            <p><pre style="margin-left: -14ch;">
+                &lt;ol&gt;
+                    &lt;lh&gt;List Head&lt;/lh&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li>item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                &lt;/ol&gt;
+                &lt;ol type="A"&gt;
+                    &lt;lh&gt;List Head&lt;/lh&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                &lt;/ol&gt;
+                &lt;ol type='I'&gt;
+                    &lt;lh&gt;List Head&lt;/lh>
+                    &lt;li>item&lt;/li&gt;
+                    &lt;li>item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                &lt;/ol&gt;
+            </pre></p>
+
+        <p> Unordered Lists</p>
+            <ul>
+                <lh>List Head</lh>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <ul style="list-style-type: square;">
+                <lh>List Head</lh>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <ul style="list-style-type: none;" >
+                <lh>List Head</lh>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <pre style="margin-left: -14ch;" >
+                &lt;ul&gt;
+                    &lt;lh&gt;List Head&lt;/lh&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;ul style="list-style-type: square;"&gt;
+                    &lt;lh&gt;List Head&lt;/lh&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;ul style="list-style-type: none;" &gt;
+                    &lt;lh&gt;List Head&lt;/lh&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                    &lt;li&gt;item&lt;/li&gt;
+                &lt;/ul&gt;
+            </pre>
+    </div>
+    <hr>
+
+    <div id="Grafics">
+    <p>Graphics </p>
+        <p>Canvas Borders with a circle</p>
+        <canvas id="myCanvas" width="200" height="100" style="border:2px solid black;"></canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+        </script>
+        <pre style="margin-left: -14ch;">
+            &lt;p&gt;Canvas Borders with a circle&lt;/p&gt;
+            &lt;canvas id="myCanvas" width="200" height="100" style="border:2px solid black;"&gt;&lt;/canvas&gt;
+            &lt;script&gt;
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.beginPath();
+                ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+                ctx.stroke();
+            &lt;/script&gt;
+        </pre>
+
+        <p>SVG</p>
+        <p>SVG Logo</p>
+        <svg height="130" width="500">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+            <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+        </svg>
+        <pre style="margin-left: -14ch;">
+            &lt;svg height="130" width="500"&gt;
+                &lt;defs&gt;
+                    &lt;linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"&gt;
+                        &lt;stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" /&gt;
+                        &lt;stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" /&gt;
+                    &lt;/linearGradient&gt;
+                &lt;/defs&gt;
+                &lt;ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" /&gt;
+                &lt;text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG&lt;&gt;text&gt;
+            &lt;&gt;svg&gt;
+
+        </pre>
+    </div>
+    <hr>
+
+    <div id="Rows">
+        <p>Break Row</p>
+            <br>
+        <pre> &lt;br&gt; </pre><br>
+
+        <p>Horizontal Row </p>
+            <hr>
+        <pre> &lt;hr&gt; </pre><br>
+    </div>
+    <hr>
+
+    <div id="Table">
+    <p>Table </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Header content1</th>
+                    <th>Header content2</th>
+                    <th>Header content3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data content1</td>
+                    <td>Data content2</td>
+                    <td>Data content3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"> Author and more informations </td>
+                </tr>
+            </tfoot>
+        </table>
+        <pre style="margin-left: -14ch;">
+            &lt;table&gt;
+                &lt;thead&gt;
+                    &lt;tr&gt;
+                        &lt;th&gt;Header content1&lt;/th&gt;
+                        &lt;th&gt;Header content2&lt;/th&gt;
+                        &lt;th&gt;Hea&gt;er content3&lt;/th&gt;
+                    &lt;/tr&gt;
+                &lt;/thead&gt;
+                &lt;tbody&gt;
+                    &lt;tr&gt;
+                        &lt;td&gt;Data content1&lt;/td&gt;
+                        &lt;td&gt;Data content2&lt;/td&gt;
+                        &lt;td&gt;Data content3&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;
+                &lt;tfoot&gt;
+                    &lt;tr&gt;
+                        &lt;td colspan="3"> Author and more informations &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tfoot&gt;
+            &lt;/table>
+        </pre>
+    </div>
+    <hr>
+
+    <div id="Media">
+    <p> Media</p>
+        <p>Audio </p>
+        <p>Kawasaki ZXRR MotoGP</p>
+        <audio controls alt="kawasaki_zxrr_motogp">
+            <source src="img/kawasaki_zxrr_motogp.mp3" type="audio/mp3">
+        </audio>
+        <pre style="margin-left: -14ch;">
+            &lt;p&gt;Kawasaki ZXRR MotoGP&lt;/p&gt;
+            &lt;audio controls alt="kawasaki_zxrr_motogp"&gt;
+                &lt;source src="img/kawasaki_zxrr_motogp.mp3" type="audio/mp3"&gt;
+            &lt;/audio&gt;
+            <p>
+        </pre>
+
+        <p>Video </p>
+        <video width="75%" height="50%" controls>
+            <source src="img/TOP 10 SOFA BEDS & MODERN SLEEPER SOFAS 2019.mp4" type="video/mp4">
+        </video>
+        <pre style="margin-left: -14ch;">
+            &lt;video width="75%" height="50%" controls&gt;
+                &lt;source src="img/TOP 10 SOFA BEDS & MODERN SLEEPER SOFAS 2019.mp4" type="video/mp4"&gt;
+            &lt;/video&gt;
+        </pre><br>
+        <p>Youtube iframe </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oHHD6uSk8dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <pre style="margin-left: -14ch;">
+            &lt;iframe
+            width="560" height="315" src="https://www.youtube.com/embed/oHHD6uSk8dQ"
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;
+            &lt;/iframe&gt;
+        </pre><br>
+    </div>
+    <hr>
+
+    <div id="Forms">
+        Forms
+        <div id="FormElements">
+        <form>
+            <p>Form Elements</p><br>
+            <pre>The HTML form element can contain one or more of the following form elements:
+            input, label, select, textarea, button, fieldset, legend, datalist, output, option,
+            optgroup & label.</pre><br>
+
+            <p><b>The input element can be displayed in several ways, depending on the type attribute.</b></p>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+                <pre>&lt;input type="text"&gt; </pre> <br><br>
+
+            <p><b>The select element defines a drop-down list:
+                </b></p>
+                <label for="cars">Choose a car:</label>
+                <select id="cars" name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select><br>
+                <pre> &lt;select id="cars" name="cars"&gt;</pre><br><br>
+
+            <p><b>The textarea element defines a multi-line input field (a text area):</b></p>
+                <textarea name="message" rows="10" cols="30" >The cat was playing in the garden.</textarea>
+                <pre>&lt;textarea name="message" rows="10" cols="30"&gt;The cat... &lt;/textarea&gt;</pre><br>
+                    <p>The rows attribute specifies the visible number of lines in a text area.
+                    <br>The cols attribute specifies the visible width of a text area.
+                    <br>This is how the HTML code above will be displayed in a browser:
+                    <br>The cat was playing in the garden.
+                    <br>You can also define the size of the text area by using CSS:</p>
+
+                <textarea name="message" style="width:200px; height:600px;">The cat was playing in the garden.</textarea>
+                <pre> &lt;textarea name="message" rows="10" cols="30"&gt; </pre> <br><br>
+
+            <p><b>The &ltbutton&gt; element defines a clickable button:</b><br>
+                Note: Always specify the type attribute for the button element. Different browsers may use different default types for the button element</p>
+                <button type="button" onclick="alert('Hello Assembler!')">Click Me!</button>
+                <pre> &lt;button type="button" onclick="alert('Hello Assembler!')"&gt; </pre><br><br>
+
+            <p><b>The fieldset element is used to group related data in a form.</b></p>
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="Assembler"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="School"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+            <pre style="margin-left: -15ch;">
+                &lt;fieldset&gt;
+                    &lt;legend>Personalia:&lt;/legend&gt;
+                    &lt;label for="fname">First name:&lt;/label&gt;
+                    &lt;input type="text" id="fname" name="fname" value="Assembler"&gt;
+                    &lt;label for="lname">Last name:&lt;/label&gt;
+                    &lt;input type="text" id="lname" name="lname" value="School"&gt;
+                    &lt;input type="submit" value="Submit"&gt;
+                &lt;/fieldset&gt;
+            </pre> <br><br>
+
+            <p><b>The datalist element specifies a list of pre-defined options for an input element.</b><br>
+            Users will see a drop-down list of the pre-defined options as they input data.<br>
+            The list attribute of the input element, must refer to the id attribute of the datalist element.</p>
+                <form action="/action_page.php">
+                    <input list="browsers">
+                    <datalist id="browsers">
+                        <option value="Internet Explorer">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>
+                </form>
+                <pre style="margin-left: -18ch;">
+                    &lt;form action="/action_page.php"&gt;
+                        &lt;input list="browsers"&gt;
+                        &lt;datalist id="browsers"&gt;
+                            &lt;option value="Internet Explorer"&gt;
+                            &lt;option value="Firefox"&gt;
+                            &lt;option value="Chrome"&gt;
+                            &lt;option value="Opera"&gt;
+                            &lt;option value="Safari"&gt;
+                        &lt;/datalist&gt;
+                    &lt;/form>
+                </pre> <br><br>
+
+            <p><b>The output element represents the result of a calculation (like one performed by a script).</b><br>
+            Perform a calculation and show the result in an output element:</p>
+                <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    0 <input type="range"  id="a" name="a" value="50"> 100 +  <input type="number" id="b" name="b" value="50"> = <output name="x" for="a b"></output><br>
+                    <input type="submit">
+                </form> <br><br>
+                <pre style="margin-left: -19ch;">
+                    &lt;form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)"&gt;
+                        0 &lt;input type="range"  id="a" name="a" value="50"&gt; 100 +  &lt;input type="number" id="b" name="b" value="50"&gt; = <output name="x" for="a b">&lt;/output&gt;
+                        &lt;input type="submit"&gt;
+                    &lt;/form&gt;
+                </pre>
+        </div>
+        </form>
+
+        <div id="InputTypes">
+        <p><b>Input types </b></p><br>
+            <form id="inputtypes">
+
+                <p><b> Search input is used to search something in webpage </b></p>
+                    <label for="search">Search:</label>
+                    <input id="search" type="search" name="search"><br>
+                    <pre class="inputTypes" >
+                        &lt;label for="search">Search:&lt;/label&gt;
+                        &lt;input type="search"&gt;
+                    </pre><br><br>
+
+                <p><b> Email input is used to field an email in webpage </b></p>
+                    <label for="iemail">Email:</label>
+                    <input id="iemail" type="email" name="email" autofocus required><br>
+                    <pre class="inputTypes">
+                        &lt;label for="email">Email:&lt;/label&gt;
+                        &lt;input type="email"&gt;
+                    </pre><br><br>
+
+                <p><b> Password input is used to field a password in webpage</b> </p>
+                    <label for="ipass">Password:</label>
+                    <input id="ipass" type="password" name="pass" required> <br>
+                    <pre class="inputTypes">
+                        &lt;input type="password"&gt;
+                    </pre> <br><br>
+
+                <p><b> Text input is used to defines a single-line text input field </b></p>
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <pre class="inputTypes">
+                        &lt;label for=for="fname">Name:&lt;/label&gt;
+                        &lt;input type="text"&gt;
+                    </pre> <br><br>
+
+                <p><b> Hidden input is used to defines a field (not visible to a user)</b></p>
+                    <input type="hidden" id="custId" name="custId" value="5487"><br>
+                    <pre class="inputTypes">
+                        &lt;input type="hidden" id="custId" name="custId" value="5487"&gt;
+                    </pre><br><br>
+
+                <p><b> Submit input defines a button for submitting form data to a form-handler</b></p>
+                    <input type="submit" value="Submit"><br>
+                    <pre class="inputTypes">
+                        &lt;input type="submit" value="Submit"&gt;
+                    </pre><br><br>
+
+                <p><b> Tel input is used for input fields that should contain a telephone number</b></p>
+                    <label for="tel">Telephone:</label>
+                    <input id="tel" type="tel" name="tel"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="tel">Telephone:&lt;/label&gt;
+                        &lt;input type="tel"&gt;
+                    </pre><br><br>
+
+                <p><b> Date input allows the user to select a week and year</b></p>
+                    <label for="birthday">Date Birth:</label>
+                    <input type="date" id="birthday" name="birthday"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="birthday">Date Birth:&lt;/label&gt;
+                        &lt;input type="date"&gt;
+                    </pre> <br><br>
+
+                <p><b> Month input allows the user to select a month and year</b></p>
+                    <label for="bdaymonth">Birthday (month and year):</label>
+                    <input type="month" id="bdaymonth" name="bdaymonth"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="bdaymonth">Birthday (month and year):&lt;/label&gt;
+                        &lt;input type="month"&gt;
+                    </pre><br><br>
+
+
+                <p><b> Time input time  allows the user to select a time (no time zone)</b></p>
+                    <label for="appt">Select a time:</label>
+                    <input type="time" id="appt" name="appt"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="appt">Select a time:&lt;/label&gt;
+                        &lt;input type="time"&gt;
+                    </pre> <br><br>
+
+                <p><b> Week input week allows the user to select a week and year</b></p>
+                    <label for="week">Select a week:</label>
+                    <input type="week" id="week" name="week"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="week">Select a week:&lt;/label&gt;
+                        &lt;input type="Week"&gt;
+                    </pre> <br><br>
+
+                <p><b> Number input defines a numeric input field<br>You can also set restrictions on what numbers are accepted.</b></p>
+                    <label for="quantity">Quantity (between 1 and 5):</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="quantity">Quantity (between 1 and 5):&lt;/label&gt;
+                        &lt;input type="number"&gt;
+                    </pre> <br><br>
+
+                <p><b> Image input define an image as a submit button </b></p>
+                    <input type="image" src="img/send_button.png" alt="Submit" width="48" height="48"><br>
+                    <pre class="inputTypes">
+                        &lt;input type="image src="img/send_button.png" alt="Submit" width="48" height="48" &gt;
+                    </pre><br><br>
+
+                <p><b> Range input defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100.</b></p>
+                    <label for="yexp">Years of experience:</label>
+                    <input id="yexp" type="range" name="years" min="0" max="10"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="yexp">Years of experience:&lt;/label&gt;
+                        &lt;input type="range"&gt;
+                    </pre><br><br>
+
+                <p><b> Range input defines a radio button.<br>
+                    Radio buttons let a user select ONLY ONE of a limited number of choices:</b></p>
+                    <p>Choose your preferred way of working:</p>
+                        <input type="radio" id="remote" name="fav_workplace" value="remote">
+                        <label for="remote">Remote</label><br>
+                        <input type="radio" id="office" name="fav_workplace" value="office">
+                        <label for="office">Office</label><br>
+                        <input type="radio" id="mixed" name="fav_workplace" value="mixed">
+                        <label for="mixed">Mixed</label><br>
+                    <pre class="inputTypes">
+                        &lt;input type="radio" id="remote" name="fav_workplace" value="remote"&gt;
+                        &lt;label for="remote">Remote&lt;/label&gt;
+                        &lt;input type="radio" id="office" name="fav_workplace" value="office"&gt;
+                        &lt;label for="office">Office&lt;/label&gt;
+                        &lt;input type="radio" id="mixed" name="fav_workplace" value="mixed"&gt;
+                        &lt;label for="mixed">Mixed &lt;/label&gt;
+                    </pre><br><br>
+
+                <p><b> Checkbox input defines a checkbox.</b><br>
+                    <p>Mark what work tools you already have:</p>
+                        <input type="checkbox" id="tool1" name="tool1" value="PersonalComputer">
+                        <label for="tool1"> I have a personal computer</label><br>
+                        <input type="checkbox" id="tool2" name="tool2" value="mobilephone">
+                        <label for="tool2"> I have a mobile phone</label><br>
+                        <input type="checkbox" id="tool3" name="tool3" value="internetnetwork">
+                        <label for="tool3"> I have a internet network</label><br>
+                    <pre class="inputTypes">
+                        &lt;input type="checkbox" id="tool1" name="tool1" value="PersonalComputer"&gt;
+                        &lt;label for="tool1"> I have a personal computer&lt;/label&gt;
+                        &lt;input type="checkbox" id="tool2" name="tool2" value="mobilephone"&gt;
+                        &lt;label for="tool2"> I have a mobile phone&lt;/label&gt;
+                        &lt;input type="checkbox" id="tool3" name="tool3" value="internetnetwork"&gt;
+                        &lt;label for="tool3"> I have a internet network&lt;/label&gt;
+                    </pre> <br><br>
+
+                <p><b> Color input is used for input fields that should contain a color.
+                    <br> Depending on browser support, a color picker can show up in the input field.</b></p>
+                        <label for="favcolor">Select your favorite color:</label>
+                        <input type="color" id="favcolor" name="favcolor"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="favcolor">Select your favorite color:&lt;/label&gt;
+                        &lt;input type="color" id="favcolor" name="favcolor"&gt;
+                    </pre> <br><br>
+
+                <p><b> File input defines a file-select field and a "Browse" button for file uploads.</b></p>
+                    <label for="mycv">Update your CV:</label>
+                    <input type="file" id="mycv" name="mycv"><br>
+                    <pre class="inputTypes">
+                        &lt;label for="mycv">Update your CV:&lt;/label&gt;
+                        &lt;type="file" id="mycv" name="mycv"&gt;
+                    </pre> <br><br>
+
+                <p><b> URL input is used for input fields that should contain a URL address.<br>
+                Depending on browser support, the url field can be automatically validated when submitted.
+                <br>Some smartphones recognize the url type, and adds ".com" to the keyboard to match url input.</b></p>
+                    <label for="linkidurl">Linkedin:</label>
+                    <input type="url" name="url"><br>
+                    <pre  class="inputTypes">
+                        &lt;label for="linkidurl">Linkedin:&lt;/label&gt;
+                        &lt;type="url" name="url"&gt;
+                    </pre><br><br>
+
+                <p><b> Submit input defines a button for submitting form data to a form-handler.
+                <br>The form-handler is typically a server page with a script for processing input data.
+                <br>The form-handler is specified in the form's action attribute:</b></p>
+                    <input type="submit" value="Send"><br>
+                    <pre  class="inputTypes">
+                        &lt;input type="submit"&gt;
+                    </pre><br><br>
+
+                <p><b> Reset input defines a reset button that will reset all form values to their default values.</b></p>
+                    <input type="reset" value="Reset"><br>
+                    <pre  class="inputTypes">
+                        &lt;input type="reset"&gt;
+                    </pre><br><br>
+
+                <p><b> Button input defines a button.</b></p>
+                    <input type="button" onclick="alert('Hello Assembler!')" value="Click Me!"><br>
+                    <pre  class="inputTypes">
+                        &lt;input type="button"&gt;
+                    </pre><br><br>
+        </div>
+
+        <div id="InputAtrr">
+            <form >
+                <p>Input attributes</p><br><br>
+                    <p><b> Input value attribute specifies an initial value for an input field:</b></p>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="Assembler"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="School"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname">First name:&lt;/label&gt;
+                            &lt;input type="text" id="fname" name="fname" value="Assembler"&gt;
+                            &lt;label for="lname">Last name:&lt;/label&gt;
+                            &lt;type="text" id="lname" name="lname" value="School"&gt;
+                        </pre><br><br>
+
+                    <p><b> The input readonly attribute specifies that an input field is read-only.</b><br>
+                    A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+                    <br>The value of a read-only input field will be sent when submitting the form!</p>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="Assembler" readonly><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="School"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname">First name:&lt;/label&gt;
+                            &lt;input type="text" id="fname" name="fname" value="Assembler" readonly&gt;
+                            &lt;label for="lname">Last name:&lt;/label&gt;
+                            &lt;input type="text" id="lname" name="lname" value="School"&gt;
+                        </pre><br><br>
+
+                    <p><b> The input disabled attribute specifies that an input field should be disabled.</b><br>
+                    A disabled input field is unusable and un-clickable.<br>
+                    The value of a disabled input field will not be sent when submitting the form!</p>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="Assembler" disabled><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="School"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname">First name:&lt;/label&gt;
+                            &lt;input type="text" id="fname" name="fname" value="Assembler" disabled&gt;
+                            &lt;label for="lname">Last name:&lt;/label&gt;
+                            &lt;input type="text" id="lname" name="lname" value="School"&gt;
+                        </pre><br><br>
+
+                    <p><b> The input size attribute specifies the visible width, in characters, of an input field.</b><br>
+                    The default value for size is 20.<br>
+                    Note: The size attribute works with the following input types: text, search, tel, url, email, and password.</p>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" size="50"><br>
+                        <label for="pin">PIN:</label><br>
+                        <input type="text" id="pin" name="pin" size="4"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname">First name:&lt;/label&gt;
+                            &lt;input type="text" id="fname" name="fname" size="50"&gt;
+                            &lt;label for="pin">PIN:&lt;/label&gt;
+                            &lt;input type="text" id="pin" name="pin" size="4"&gt;
+                        </pre><br><br>
+
+                    <p><b> The input maxlength attribute specifies the maximum number of characters allowed in an input field.</b><br>
+                    Note: When a maxlength is set, the input field will not accept more than the specified number of characters. <br>
+                    However, this attribute does not provide any feedback. So, if you want to alert the user, you must write JavaScript code.</p>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" size="50"><br>
+                        <label for="pin">PIN:</label><br>
+                        <input type="text" id="pin" name="pin" maxlength="4" size="4"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname">First name:&lt;/label&gt;
+                            &lt;input type="text" id="fname" name="fname" size="50"&gt;
+                            &lt;label for="pin">PIN:&lt;/label&gt;
+                            &lt;input type="text" id="pin" name="pin" maxlength="4" size="4"&gt;
+                        </pre><br><br>
+
+                    <p><b>The input min and max attributes specify the minimum and maximum values for an input field.</b><br>
+                    The min and max attributes work with the following input types: number, range, date, datetime-local, month, time and week.<br>
+                    Tip: Use the max and min attributes together to create a range of legal values.</p>
+                        <label for="datemax">What day did you start prework at assambler school?</label>
+                        <input type="date" id="datemax" name="datemax" max="2021-09-24"><br><br>
+
+                        <label for="datemin">What day will you start the course at assambler school?</label>
+                        <input type="date" id="datemin" name="datemin" min="2021-10-01"><br><br>
+
+                        <label for="quantity">How many months have you been studying html & css? (between 1 and 24):</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+                        <pre class="inputAttr">
+                            &lt;for="datemax">What day did you start prework at assambler school?&lt;/label&gt;
+                            &lt;input type="date" id="datemax" name="datemax" max="2021-09-24"&gt;
+
+                            &lt;label for="datemin">What day will you start the course at assambler school&gt;&lt;/label&gt;
+                            &lt;input type="date" id="datemin" name="datemin" min="2021-10-01"&gt;
+
+                            &lt;label for="quantity">How many months have you been studying html & css? (between 1 and 24)&gt;&lt;/label&gt;
+                            &lt;input type="number" id="quantity" name="quantity" min="1" max="5"&gt;
+                        </pre><br><br>
+
+                    <p><b>The input multiple attribute specifies that the user is allowed to enter more than one value in an input field.</b>
+                    <br>The multiple attribute works with the following input types: email, and file.</p>
+                        <label for="files">Select files:</label>
+                        <input type="file" id="files" name="files" multiple><br>
+                        <pre class="inputAttr">
+                            &lt;label for="files">Select files:&lt;/label&gt;
+                            &lt;input type="file" id="files" name="files" multiple&gt;
+                        </pre><br><br>
+
+                    <p><b>The input pattern attribute specifies a regular expression that the input field's value is checked against, when the form is submitted.</b><br>
+                    The pattern attribute works with the following input types: text, date, search, url, tel, email, and password.<br>
+                    Tip: Use the global title attribute to describe the pattern to help the user.<br>
+
+                    Example
+                    An input field that can contain only three letters (no numbers or special characters):</b><br>
+                    The multiple attribute works with the following input types: email, and file.</p>
+                        <label for="country_code">Country code:</label>
+                        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="country_code">Country code:&lt;label&gt;
+                            &lt;input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"&gt;
+                        </pre><br><br>
+
+                    <p><b>The input placeholder attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).</b><br>The short hint is displayed in the input field before the user enters a value.<br>
+                    The placeholder attribute works with the following input types: text, search, url, tel, email, and password.<br>
+                    Example<br>An input field with a placeholder text:<br>
+                    The multiple attribute works with the following input types: email, and file.</p>
+                        <label for="phone">Enter a phone number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="phone">Enter a phone number:&lt;label&gt;
+                            &lt;input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"&gt;
+                        </pre><br><br>
+
+                    <p><b>The input required attribute specifies that an input field must be filled out before submitting the form.</b><br>
+                    The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+                    <br>Example<br>A required input field:</p>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required><br>
+                        <pre class="inputAttr">
+                            &lt;label for="username">Username:&lt;label&gt;
+                            &lt;input type="text" id="username" name="username" required&gt;
+                        </pre><br><br>
+
+
+                    <p><b>The input step attribute specifies the legal number intervals for an input field.</b><br>
+                    Example: if step="3", legal numbers could be -3, 0, 3, 6, etc.
+                    <br>Tip: This attribute can be used together with the max and min attributes to create a range of legal values.
+                    <br>The step attribute works with the following input types: number, range, date, datetime-local, month, time and week.
+                    <br>Example<br>An input field with a specified legal number intervals:</p>
+                        <label for="points">Points:</label>
+                        <input type="number" id="points" name="points" step="3"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="points">Points:&lt;label&gt;
+                            &lt;input type="number" id="points" name="points" step="3""&gt;
+                        </pre><br><br>
+
+                    <p><b>The input autofocus attribute specifies that an input field should automatically get focus when the page loads.</b>
+                    <br>Example<br>Let the "First name" input field automatically get focus when the page loads:<br></p>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" autofocus><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname">First name&gt;&lt;/label&gt;<br>
+                            &lt;input type="text" id="fname" name="fname" autofocus&gt;<br>
+                            &lt;label for="lname">Last name:&lt;/label&gt;<br>
+                            &lt;input type="text" id="lname" name="lname"&gt;
+                        </pre><br><br> 
+
+                    <p><b>The input height and width attributes specify the height and width of an &lt;input type="image"&gt; element.</b><br>
+                    Tip: Always specify both the height and width attributes for images. If height and width are set, the space required for the image is reserved when the page is loaded.<br>Without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it.
+                    <br>The effect will be that the page layout will change during loading (while the images load).<br>
+                    Example<br>Define an image as the submit button, with height and width attributes:</p>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname"First name:&gt;&lt;/label&gt;
+                            &lt;input type="text" id="fname" name="fname"&gt;
+                            &lt;label for="lname">Last name:&lt;/label&gt;
+                            &lt;input type="text" id="lname" name="lname"&lt;
+                            &lt;input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"&gt;
+                        </pre><br><br>
+
+                    <p><b>The input list attribute refers to a datalist element that contains pre-defined options for an input element.</b><br>
+                    <br>Example<br>An input element with pre-defined values in a datalist:</p>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                            <option value="Internet Explorer">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist><br>
+                        <pre class="inputAttr">
+                            &lt;input list="browsers"&gt;
+                            &lt;datalist id="browsers"&gt;
+                            &lt;option value="Internet Explorer"&gt;
+                            &lt;option value="Firefox"&gt;
+                            &lt;option value="Chrome"&gt;
+                            &lt;option value="Opera"&gt;
+                            &lt;option value="Safari"&gt;
+                            &lt;/datalist&gt;<br>
+                        </pre><br><br>
+
+                    <p><b>The form tag is used to create an HTML form for user input.</b><br>
+                    The form element can contain one or more of the following form elements: input, textarea, button, select, option, optgroup, fieldset, label, output.<br>
+                    Example<br>An HTML form with two input fields and one submit button:</p>
+                        <form action="/action_page.php" method="get">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname"><br><br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname"><br><br>
+                            <input type="submit" value="Submit">
+                        </form><br>
+                        <pre class="inputAttr">
+                            &lt;label for="fname">First name:&lt;/label&gt;
+                            &lt;input type="text" id="fname" name="fname"&gt;
+                            &lt;label for="lname">Last name:&lt;/label&gt;
+                            &lt;input type="text" id="lname" name="lname"&gt;
+                            &lt;input type="submit" value="Submit"&gt;
+                        </pre><br><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
