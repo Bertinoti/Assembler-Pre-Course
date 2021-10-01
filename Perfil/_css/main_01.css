@@ -1,0 +1,456 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid #ffffff;
+    width: 100px;
+}
+
+header{
+    margin-top: 1.5em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    clear: both;
+    overflow: auto;
+}
+
+.name{
+    font-size: 4em;
+    color: #18ba60;
+    font-weight: 900;
+    margin: 0;
+}
+
+.navegation ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navegation li{
+    display: inline-block;
+    margin: 1em;
+}
+
+.navegation a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+}
+
+.navegation a:hover{
+    transition: all 0.2s linear;
+    color: #18ba60;
+}
+
+.button{
+    padding: 0.5em 2em;
+    margin-top: 1em;
+    background: #18ba60;
+    color: #ffffff;
+    font-weight: 400;
+    border: 2px solid #18ba60;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.button:hover{
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #18ba60;
+}
+
+.intro{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../_imagens/barcelona_parcguell2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10em 0;
+    color: #ffffff;
+}
+
+#ContactPhoto{
+    background-image: linear-gradient(to bottom, rgb(18 18 18 / 52%), rgb(72 124 95 / 73%)), url(../_imagens/BarcelonaContact.jpg);
+    width: 380px;
+    height: 760px;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+    border-radius: 0px 80px;
+    border: solid #d8dfd6 5px;
+    margin: inherit;
+}
+
+.content-intro{
+    margin-top: 6em;
+}
+
+.content-intro h1{
+    margin-top: 1.5em;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content-intro span{
+    font-size: 0.6em;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+}
+
+
+.content-wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content-aside{
+    width: 90%;
+    margin: auto;
+}
+
+.col-narrow{
+    float:left;
+    overflow: hidden;
+    margin-top: 2em;
+    clear: both;
+    text-align: center;
+}
+
+.col-wide {
+    width: 70%;
+    float: right;
+    text-align: left;
+    overflow: hidden;
+    background: #f1f1f1;
+    padding: 30px 40px;
+    margin: 60px 0px;
+    border: solid #ffffff 5px;
+    border-radius: 0px 80px;
+    box-shadow: rgb(61 61 61 / 47%) 0px -4px 15px -6px;
+}
+
+.contact-us{
+    float: left;
+    padding: 5em 0;
+    overflow: auto;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    }
+
+div.gallery:hover {
+    border: 1px solid #777;
+    }
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+
+.galery{
+    padding: 5em;
+    background: linear-gradient(90deg,rgba(0,0,0,0.7),rgb(24,186,96,0.8)), url(../_imagens/barcelona.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.history{
+    padding: 3% 0;
+    overflow: auto;
+}
+
+.history h3{
+    padding: 1em;
+    margin: 0.5em 1em;
+}
+
+.social-icons{
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.social-icons a{
+    border: 1px solid #444444;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    color: #444444;
+    transition: all 0.2s ease-in;
+}
+
+.social-icons a:hover{
+    color:#18ba60;
+    border: 1px solid #18ba60;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    }
+
+
+.clearfix:after {
+    display: table;
+    clear: both;
+}
+
+/*footer gonzalo cachon*/
+footer{
+    background-color: #453B39;
+    height: 100px;
+}
+footer ul{
+    float: left;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 80%;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+.footer nav{
+    padding-right: 5%;
+}
+footer .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    padding-right: 3%;
+    padding-top: 2.5%;
+}
+
+.fa-facebook{
+    background-color: #453B39;
+    color: whitesmoke;
+}
+.fa-twitter{
+    background-color: #453B39;
+    color: whitesmoke;
+}
+.fa-instagram{
+    background-color: #453B39;
+    color: whitesmoke;
+}
+
+/*formulario */
+.form input, textarea{
+    background-color:rgba(24,186,96,0.3);
+}
+
+#form-button:hover{
+    transition: all 0.2s linear;
+    background-color: #18ba60;
+    color: #ffffff;
+}
+.names{
+    margin: 1em 1.5em;
+    margin-left: 0;
+}
+.form div{
+    margin-top: 1%;
+}
+#form-button {
+    background-color: #f3f3f3;
+    margin-top: 1%;
+    border-radius: 0px;
+    width: 150px;
+    float: right;
+    font-size: 21px;
+    color: #5c5c5c;
+}
+
+
+/*Media Width  --------------*/
+@media (max-width:1024px) {
+    .col-wide{
+    width:60%;
+    }
+
+    .responsive {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .col-wide{
+        width:100%;
+        text-align: center;
+    }
+
+    .col-narrow{
+        text-align: center;
+        float: none;
+    }
+
+    .contact-us{
+        float: none;
+        margin-top: 1em;
+    }
+
+    .footer{
+        padding: 1em;
+    }
+
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:430px) {
+    .name{
+        font-size: 2.5em;
+    }
+    .intro{
+        padding: 4em;
+    }
+    .content-intro h1 {
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-weight: 5500;
+}
+
+.navegation a {
+    font-size: .8em;
+    padding: .5em;
+    }
+
+    .responsive {
+    width: 100%;
+    height: 100%;
+    }
+}
+
+@media (max-width:375px){
+    .name{
+        font-size: 2em;
+    }
+
+    .navegation a {
+    font-size: .8em;
+    padding: 0;
+    }
+}
+
+@media (max-width:320px){
+    .content-intro{
+        padding-top: 1em;
+    }
+
+    .navegation li {
+        display: inline-block;
+        margin: .5em;
+    }
+    .name {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    }
+
+    .responsive {
+        width: 100%;
+        height: 100%;
+        }
+}
+
+
+
+/* Aside nav Bar-----------------------------*/
+
+
+.navegation-aside ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 5em;
+}
+
+.navegation-aside li{
+    width: max-content;
+    padding: 1em;
+    margin: auto;
+}
+
+.navegation-aside a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em;
+    color: #18ba60;
+}
+
+.navegation-aside a:hover{
+    transition: all 0.2s linear;
+    background-color: #18ba60;
+    color: #ffffff;
+}
+
+.content-aside2{
+    width: 90%;
+    margin: auto;
+}
+
+.contact-us2{
+    float: left;
+    padding: 5em 0;
+    overflow: auto;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+.form input, textarea {
+    background-color: rgb(40 48 52);
+    color: whitesmoke;
+}
+
