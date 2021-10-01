@@ -94,7 +94,8 @@ b,
 body {
     font-weight: 400;
     color: #444;
-    text-rendering: optimizeLegibility
+    text-rendering: optimizeLegibility;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1,
 h2,
@@ -217,7 +218,7 @@ button,
 .navbar .navbar-right .link-button:active,
 .download-button:focus,
 .navbar .navbar-right .link-button:focus {
-    background-color: #005ba4
+    background-color: #Deb43e;
 }
 .action-button {
     background-color: #373277
@@ -337,7 +338,7 @@ iframe[name='google_conversion_frame'] {
     background: none
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: #fff
+    color: #efeae1;
 }
 .navbar .navbar-right {
     display: block
@@ -357,7 +358,7 @@ iframe[name='google_conversion_frame'] {
     }
 }
 .navbar .navbar-right .link-button {
-    color: #fff;
+    color: #efeae1;
     font-size: 16px;
     line-height: 100%;
     padding: 17px 20px;
@@ -369,7 +370,7 @@ iframe[name='google_conversion_frame'] {
     }
     .navbar .navbar-right .link-button img {
         display: block;
-        position: absolute;
+        /*position: absolute;*/
         left: 15px
     }
 }
