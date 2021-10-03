@@ -1,4 +1,100 @@
 /* Here you can write your CSS code */
+/*Index page*/
+body{
+    color: #efdab9;
+}
+.alt-downloads .terms {
+    color: #efdab9;
+    padding: 4rem 19%
+}
+
+.alt-downloads.insiders-callout .swimlane h2 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #efdab9;
+    font-size: 2.1rem
+}
+
+.alt-downloads.insiders-callout .swimlane .call-to-action {
+    font-size: 1.8rem;
+    color: #efdab9
+}
+
+.alt-downloads .link-button {
+    color: #efdab9;
+    margin: 20px 0 5px;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    width: 240px;
+    background-color: rgba(59, 155, 109, 1)
+}
+
+.alt-downloads .link-button:hover {
+    background-color: rgba(59, 155, 109, 0.5)
+}
+.alt-downloads .link-button {
+    color: white;
+    margin: 20px 0 5px;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    width: 240px;
+    background-color:rgba(59, 155, 109, 1)
+}
+
+.swimlane:nth-child(even) {
+    margin: -1px;
+    background-color: #343233
+}
+
+.swimlane:nth-child(odd) {
+    background-color: #343233;
+}
+
+.home .getting-started .mask {
+    background: linear-gradient(to bottom, #343233, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),#343233);
+    z-index: 990;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: -20px
+}
+
+.home .getting-started .caption .link-button {
+    background-color: rgba(59, 155, 109, 1);
+    color: white;
+    margin: 20px 0
+}
+
+.home .getting-started .caption .link-button:hover {
+    background-color: rgba(59, 155, 109, 0.5)
+}
+
+.home .jumbotron.home .download-hero .link-button {
+    color: white;
+    margin: 2.5rem 0 0 0;
+    background-color: rgba(59, 155, 109, 1);
+    height: 6.5rem
+}
+.home .jumbotron.home .download-hero .terms {
+    padding: 4px 8px;
+    color: #efdab9;
+}
+.home .jumbotron.home a {
+    color: rgba(59, 155, 109, 1)
+}
+
+download-matrix-label{
+    color: #efdab9;
+}
+#download-matrix-label a{
+    color: rgba(59, 155, 109, 1);
+}
+
+#footer-index{
+    background-color:#2c2a2b ;
+    color: #efdab9;
+}
+
 /*Overview page*/
 
 
@@ -168,11 +264,11 @@ a:not(.ms-Button):active {
     margin-right: 5px
 }
 .docs .feedback .buttons button:hover{
-    background-color:rgba(59, 155, 109, 0.7);
+    background-color:rgba(59, 155, 109, 0.5);
 }
 .extensions .gallery-item-card {
     background-color: #fff;
-    border: rgba(59, 155, 109, 0.7) solid 1px;
+    border: rgba(59, 155, 109, 0.5) solid 1px;
     color: #000;
     font-size: 12px;
     width: 100%;

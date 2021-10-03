@@ -202,12 +202,12 @@ button,
     min-height: 30rem;
     position: relative
 }
-.swimlane:nth-child(odd) {
+/* .swimlane:nth-child(odd) {
     background-color: #f5f5f5
-}
-.swimlane:nth-child(even) {
+} */
+/* .swimlane:nth-child(even) {
     background-color: initial
-}
+} */
 .download-button,
 .navbar .navbar-right .link-button {
     background-color: #0066B8
@@ -548,7 +548,7 @@ iframe[name='google_conversion_frame'] {
 .nav .search .search-form .form-control:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px #5b5790 inset;
     padding-left: 15px;
-    -webkit-text-fill-color: white !important;
+    -webkit-text-fill-color: rgb(2, 1, 1) !important;
     padding: 6px 15px 6px 40px
 }
 .nav .search .search-form .form-control::-webkit-input-placeholder {
@@ -914,14 +914,14 @@ footer .copyright .logo {
 .alt-downloads .logo.linux {
     background: url("/assets/images/linux-logo.png") center center no-repeat
 }
-.alt-downloads .link-button {
+/* .alt-downloads .link-button {
     color: white;
     margin: 20px 0 5px;
     padding: 10px 0;
     font-size: 1.8rem;
     width: 240px;
     background-color: #0066B8
-}
+} */
 .alt-downloads .link-button small {
     display: block;
     margin-top: 0.75rem;
@@ -933,9 +933,9 @@ footer .copyright .logo {
     font-size: 1.4rem;
     font-weight: 300
 }
-.alt-downloads .link-button:hover {
+/* .alt-downloads .link-button:hover {
     background-color: #005ba4
-}
+} */
 .alt-downloads .link-button[data-os='linux64_deb'],
 .alt-downloads .link-button[data-os='linux64_rpm'] {
     width: 147px
@@ -949,10 +949,10 @@ footer .copyright .logo {
     display: block;
     font-size: 12px
 }
-.alt-downloads .terms {
+/* .alt-downloads .terms {
     color: #6c6c6c;
     padding: 4rem 19%
-}
+} */
 .alt-downloads .terms p {
     font-size: 1.4rem;
     line-height: 3rem
@@ -964,16 +964,16 @@ footer .copyright .logo {
 .alt-downloads.insiders-callout .swimlane {
     margin-bottom: 2rem
 }
-.alt-downloads.insiders-callout .swimlane h2 {
+/* .alt-downloads.insiders-callout .swimlane h2 {
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: #444;
     font-size: 2.1rem
-}
-.alt-downloads.insiders-callout .swimlane .call-to-action {
+} */
+/* .alt-downloads.insiders-callout .swimlane .call-to-action {
     font-size: 1.8rem;
     color: #444
-}
+} */
 @media (min-width: 1200px) {
     .alt-downloads .terms {
         padding: 20px 20%
@@ -1395,9 +1395,9 @@ pre.shiki .language-id {
 .home .jumbotron.home {
     margin-bottom: 0
 }
-.home .jumbotron.home a {
+/* .home .jumbotron.home a {
     color: #0098FF
-}
+} */
 .home .jumbotron.home .download-hero {
     padding: 0;
     max-width: 27.7rem;
@@ -1436,12 +1436,12 @@ pre.shiki .language-id {
     display: none;
     width: 100%
 }
-.home .jumbotron.home .download-hero .link-button {
+/* .home .jumbotron.home .download-hero .link-button {
     color: white;
     margin: 2.5rem 0 0 0;
     background-color: #0066B8;
     height: 6.5rem
-}
+} */
 .home .jumbotron.home .download-hero .link-button img {
     top: 0
 }
@@ -1583,10 +1583,10 @@ pre.shiki .language-id {
     padding-bottom: 8px;
     font-size: 14px
 }
-.home .jumbotron.home .download-hero .terms {
+/* .home .jumbotron.home .download-hero .terms {
     padding: 4px 8px;
     color: rgba(255, 255, 255, 0.6)
-}
+} */
 .home .jumbotron.home .framed-video-container {
     position: relative;
     width: 100%;
@@ -1772,14 +1772,14 @@ pre.shiki .language-id {
     position: relative;
     top: 50%
 }
-.home .getting-started .mask {
+/* .home .getting-started .mask {
     background: linear-gradient(to bottom, #f5f5f5, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), #f5f5f5);
     z-index: 990;
     height: 100%;
     width: 100%;
     position: absolute;
     left: -20px
-}
+} */
 @media screen and (-ms-high-contrast: active) {
     .home .getting-started .mask {
         background: transparent
@@ -1810,14 +1810,14 @@ pre.shiki .language-id {
     text-align: center;
     margin-top: 20px
 }
-.home .getting-started .caption .link-button {
+/* .home .getting-started .caption .link-button {
     background-color: #0066B8;
     color: white;
     margin: 20px 0
-}
-.home .getting-started .caption .link-button:hover {
+} */
+/* .home .getting-started .caption .link-button:hover {
     background-color: #005ba4
-}
+} */
 .home .terms p {
     font-size: 1.4rem
 }
