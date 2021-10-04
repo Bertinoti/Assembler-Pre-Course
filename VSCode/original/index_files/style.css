@@ -1683,12 +1683,12 @@ pre.shiki .language-id {
 .home .value-props .value-prop:hover .value-prop-icon.extensions-icon {
     background-position: -15.6rem -5.3rem
 }
-"/*" and .home.osx .jumbotron .screenshot {
+.home.osx .jumbotron .screenshot {
     background-image: url("/assets/home/home-screenshot-mac-2x.png");
     padding-bottom: 75.68882%
 }
-"*/""
- "/*" .home.win .jumbotron .screenshot {
+
+.home.win .jumbotron .screenshot {
     background-image: url("/assets/home/home-screenshot-win.png");
     padding-bottom: 68.07131%
 }
@@ -1697,7 +1697,7 @@ pre.shiki .language-id {
     padding-bottom: 82.65802%
 }
 @media only screen and (min-width: 1200px) {
-    "*/" .home.osx .jumbotron .screenshot {
+    .home.osx .jumbotron .screenshot {
         background-image: url("https://code.visualstudio.com/assets/home/home-screenshot-mac-lg-2x.png");
         padding-bottom: 64.66667%
     }
