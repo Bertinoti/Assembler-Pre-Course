@@ -9,14 +9,14 @@ section{
     max-width: 960px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    /*padding: 0 4px;*/
 }
 
 .column{
     flex-direction: column-reverse;
     flex: 50%;
     max-width: 50%;
-    padding: 0 4px;
+    /*padding: 0 4px;*/
 }
 
 .column img {
@@ -25,7 +25,6 @@ section{
     width: 100%;
     height: 400px;
     object-fit: cover;
-    border: ;
 }
 
 .row{
@@ -45,6 +44,7 @@ section{
     z-index: 1;
     color: white;
     font-size: 2em;
+    text-shadow: 2px 2px 2px rgb(82, 81, 81);
 }
 
 /* .image-text:first-child{
@@ -108,7 +108,7 @@ section{
 }
 .sales{
     background-color: #e4b8b8;
-    color: #e0e0e0;
+    color: white;
     height: 90px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
