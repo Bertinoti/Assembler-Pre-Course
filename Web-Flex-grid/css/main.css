@@ -5,6 +5,143 @@ body{
     margin: 0 auto;
 }
 
+section{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*-------------------------------------*/
+h3, h4{
+    font-size: 1.2em;
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+}
+
+
+
+h3{
+    font-size: 2em;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.banner-top-vendas{
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/top-vendas_Easy-Resize.com.jpg) top left/cover no-repeat;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-new-in {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/New-in_Easy-Resize.com.jpg) top left/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-piendentes {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/piendentes_Easy-Resize.com.jpg) top left/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-piendentes-sueltos{
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/piendentes-sueltos_Easy-Resize.com.jpg) top left/cover no-repeat;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-collares {
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/collares_Easy-Resize.com.jpg) top left/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-anillos{
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/anillos_Easy-Resize.com.jpg) top left/cover no-repeat;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-diamantes-celine{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/diamnates-celine_Easy-Resize.com.jpg) top left/cover no-repeat;
+    color: white;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-pulseras{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/pulseras_Easy-Resize.com.jpg) top left/cover no-repeat;
+    color: white;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-joyas-personalizable{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/joyas-personalizadas_Easy-Resize.com.jpg) top left/cover no-repeat;
+    color: white;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-relojes{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/relojes_Easy-Resize.com.jpg) top left/cover no-repeat;
+    color: white;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-tiendas{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/tiendas_Easy-Resize.com.jpg) top left/cover no-repeat;
+    color: white;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-shop-to-look{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/shop-the-look_Easy-Resize.com.jpg) top left/cover no-repeat;
+    color: white;
+    background-position: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-------------------------------------*/
 .column{
     flex-direction: column-reverse;
     flex: 50%;
