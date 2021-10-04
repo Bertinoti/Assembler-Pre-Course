@@ -13,6 +13,7 @@ section{
 }
 
 .column{
+    flex-direction: column-reverse;
     flex: 50%;
     max-width: 50%;
     padding: 0 4px;
