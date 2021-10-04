@@ -1,0 +1,61 @@
+body{
+    font-family: 'Playfair Display', serif;
+    max-width: 960px;
+}
+/* .main-section{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section div{
+    flex: 1 2 20rem;
+
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} */
+
+section{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:480px auto ;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
