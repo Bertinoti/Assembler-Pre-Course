@@ -1,6 +1,8 @@
 body{
     font-family: 'Playfair Display', serif;
     max-width: 960px;
+    background-color: #e0e0e0;
+    margin: 0 auto;
 }
 /* .main-section{
     list-style: none;
@@ -37,13 +39,17 @@ section{
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 50%;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 .row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:480px auto ;
+    width: 960px;
+    height: auto;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 800px) {
@@ -60,12 +66,7 @@ section{
     }
   }
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-  body{
-      font-family: 'Playfair Display', serif;
-      max-width: 960px;
-      background-color: #e0e0e0
-  }
+
   .container{
       width: 100%;
       margin: auto;
