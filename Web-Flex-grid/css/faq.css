@@ -1,0 +1,42 @@
+.text-faq{
+    color: white;
+    text-shadow: 2px 2px 6px #000;
+    font-size: 1em;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/faq-img_Easy-Resize.com.jpg) center/cover no-repeat;
+    height: 250px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.text-faq h1{
+    width: 300px;
+    text-align: center;
+}
+
+.container-grid{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr );
+    grid-template-rows:repeat(20, 2vw);
+    gap: 12px;
+}
+
+.container-grid div{
+    font-size: .7em;
+}
+
+.faq-1{
+    height: 60px;
+    border-right: 5px solid blue ;
+}
+
+.faq-1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.faq-1-resp{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
