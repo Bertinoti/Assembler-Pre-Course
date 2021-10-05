@@ -5,8 +5,64 @@ body{
     margin: 0 auto;
 }
 
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+nav a{
+    padding: 0;
+}
+
+.nav-header{
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.nav-header a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    align-self: center;
+}
+
+.nav-header a:hover{
+    color: #bb943f;
+    text-decoration: none;
+}
+
+#logo{
+    width: 50px;
+}
+
+#img_header{
+    min-width: 400px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.sales{
+    background-color: #e4b8b8;
+    color: white;
+    height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 section{
     max-width: 960px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -18,8 +74,6 @@ h3, h4{
     text-shadow: 2px 2px 6px #000;
 }
 
-
-
 h3{
     font-size: 2em;
     margin: 0;
@@ -27,15 +81,41 @@ h3{
     text-align: center;
 }
 
+a{
+    padding: 8.3em 6.2em;
+    text-decoration: none;
+    color: white;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 960px;
+    object-fit: cover;
+}
+
+.row div{
+    margin: 12px;
+}
+
+.banner-text1{
+    position: absolute;
+}
+
+.more-letters{
+    padding: 44% 50%;
+}
+
 .banner-top-vendas{
     color: white;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/top-vendas_Easy-Resize.com.jpg) top left/cover no-repeat;
     background-position: 50%;
-    height: 400px;
+    height: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .banner-new-in {
     color: white;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/New-in_Easy-Resize.com.jpg) top left/cover no-repeat;
@@ -64,6 +144,10 @@ h3{
     align-items: center;
 }
 
+.banner-piendentes-sueltos a{
+    padding: 7em 5em;
+}
+
 .banner-collares {
     color: white;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/collares_Easy-Resize.com.jpg) top left/cover no-repeat;
@@ -71,6 +155,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner-collares a{
+    padding:8.4em 7.8em ;
 }
 
 .banner-anillos{
@@ -83,6 +171,10 @@ h3{
     align-items: center;
 }
 
+.banner-anillos a{
+    padding:8.4em 8.5em ;
+}
+
 .banner-diamantes-celine{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/diamnates-celine_Easy-Resize.com.jpg) top left/cover no-repeat;
     color: white;
@@ -92,6 +184,11 @@ h3{
     justify-content: center;
     align-items: center;
 }
+
+.banner-diamantes-celine a{
+    padding: 7em 6.3em ;
+}
+
 .banner-pulseras{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/pulseras_Easy-Resize.com.jpg) top left/cover no-repeat;
     color: white;
@@ -100,6 +197,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner-pulseras a{
+    padding: 8.4em 7.8em ;
 }
 
 .banner-joyas-personalizable{
@@ -111,6 +212,11 @@ h3{
     justify-content: center;
     align-items: center;
 }
+
+.banner-joyas-personalizable a{
+    padding: 7.2em  3.8em;
+}
+
 .banner-relojes{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/relojes_Easy-Resize.com.jpg) top left/cover no-repeat;
     color: white;
@@ -119,6 +225,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner-relojes a{
+    padding: 8.5em 8.3em;
 }
 
 .banner-tiendas{
@@ -130,6 +240,11 @@ h3{
     justify-content: center;
     align-items: center;
 }
+
+.banner-tiendas a{
+    padding: 8.5em 7.9em;
+}
+
 .banner-shop-to-look{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)), url(assets/shop-the-look_Easy-Resize.com.jpg) top left/cover no-repeat;
     color: white;
@@ -140,112 +255,28 @@ h3{
     align-items: center;
 }
 
+.banner-shop-to-look a{
+    padding: 7.1em 6.2em;
+}
 
 /*-------------------------------------*/
-.column{
-    flex-direction: column-reverse;
-    flex: 50%;
-    max-width: 50%;
-}
 
-.column img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.row{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 960px;
-    object-fit: cover;
-}
-
-.row div{
-    margin: 12px;
-}
-
-.row-image{
-    height: 400px;
-    width: 100%;
-    padding:0px;
-}
-
-.image-text{
-    position: relative;
-    top: 70%;
-    text-align: center;
-    translate: (-50%, -50%);
-    z-index: 1;
-    color: white;
-    font-size: 2em;
-    text-shadow: 2px 2px 2px rgb(82, 81, 81);
-}
-
-.sub{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 0px;
-}
-
-@media screen and (max-width: 800px) {
-    .column {
-    flex: 50%;
-    max-width: 50%;
+@media screen and (max-width: 960px){
+    body{
+        margin:0 auto;
+    }
+    .row{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-    flex: 100%;
-    max-width: 100%;
+@media screen and (max-width: 490px) {
+    body{
+        margin:0 auto;
+        margin-left: 5%;
     }
 }
 
-
-.container{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    display: flex;
-}
-
-.nav-header{
-    align-items: center;
-    justify-content: space-around;
-    height: 50px;
-    overflow: hidden;
-    text-transform: uppercase;
-}
-.nav-header a{
-    color: black;
-    text-decoration: none;
-    font-size: 12px;
-    align-self: center;
-}
-.nav-header a:hover{
-    color: #bb943f;
-    text-decoration: none;
-}
-#logo{
-    width: 50px;
-}
-#img_header{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-.sales{
-    background-color: #e4b8b8;
-    color: white;
-    height: 90px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 20px;
-}
 .footer{
     justify-content: space-evenly;
     margin-top: 25px;
