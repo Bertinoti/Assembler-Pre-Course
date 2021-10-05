@@ -119,8 +119,13 @@ footer .list a:hover{
     color: #e0e0e0;
     text-transform: uppercase;
     font-weight: bold;
+    box-shadow: 1px 5px 10px #8f8f8f;
 }
-
+.handmade{
+    text-align: center;
+    background-color: #bb943f;
+    width: 50%;
+}
 
 /*Galery Slider*/
 /* .miniature{
