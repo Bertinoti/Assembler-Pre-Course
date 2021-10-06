@@ -115,10 +115,6 @@ body{
 }
 .page-links a{
     padding: 0;
-
-} 
-.arrow{
-    
 }
 .arrow {
     grid-column: 1/2;
@@ -132,19 +128,14 @@ body{
     position: relative;
     left: 60%;
     top: 15%;
-      }
+}
+
 .page-links{
     background-color: #e4b8b8;
     grid-column: 2/3;
     grid-row: 1/2;
     display: flex;
     justify-content: center;
-}
-
-
-
-.page-links-now a{
-    padding: 0;
 }
 .page-links-now{
     display: flex;
