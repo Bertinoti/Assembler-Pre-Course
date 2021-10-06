@@ -34,7 +34,7 @@
         border-right: none !important;
         height: auto !important;
         margin: 0 auto;
-        border-bottom: 2px solid blue;
+        border-bottom: 2px solid #e4b8b8;
     }
 }
 .container-grid div{
