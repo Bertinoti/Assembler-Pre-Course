@@ -335,6 +335,7 @@ footer .list a:hover{
     width: 25%;
 }
 
-#confianza-online{
-    width: 150px;
+.brand ul li img{
+    max-width: 100px;
+    width: 100%;
 }
