@@ -111,26 +111,9 @@ footer .list a:hover{
     padding: 1px 5px;
 }
 
-.flecha {
-    position: relative;
-    height: 20px;
-    width: 80px;
-    border: solid 1px #e4b8b8;
-    border-right: none;
-    background: #e4b8b8 ;
-}
-
-.flecha:after {
-    position: absolute;
-    top: 3.5px;
-    right: -6px;
-    width: 12px;
-    height: 16px;
-    border-left: solid 1px #e4b8b8;
-    border-top: solid 1px #e4b8b8;
-    transform: rotate(134deg) skewX(-10deg) skewY(-10deg);
-    background: #e4b8b8;
-    content: '';
+.btn-access a{
+    text-decoration: none;
+    color: #333;
 }
 
 /* Right column*/
