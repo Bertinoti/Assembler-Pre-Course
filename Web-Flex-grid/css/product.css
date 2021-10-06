@@ -83,15 +83,12 @@ footer .list a:hover{
 .grid-right{
     grid-column: 3/5;
     justify-content: center;
-    background-color: violet;
 }
 .grid-left{
     grid-column: 1/3;
-    background-color: teal;
 }
 .grid-center{
     grid-column: 1/5;
-    background-color: yellowgreen;
 }
 /*header*/
 .header{
@@ -137,12 +134,11 @@ footer .list a:hover{
 
 /*Left column*/
 .galery{
-    width: 500px;
-    height: 100px;
+    text-align: center;
 }
 .img-principal{
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
 }
 
