@@ -89,6 +89,7 @@ footer .list a:hover{
 }
 .grid-center{
     grid-column: 1/5;
+    justify-content: center;
 }
 /*header*/
 .header{
@@ -338,4 +339,12 @@ footer .list a:hover{
     line-height: 4rem;
     text-align: center;
     pointer-events: none;
+}
+
+/*Bottom Grid*/
+.item{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
 }
