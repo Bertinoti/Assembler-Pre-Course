@@ -81,7 +81,7 @@ h3{
     text-align: center;
 }
 
-a{
+section a{
     padding: 8.3em 6.2em;
     text-decoration: none;
     color: white;
@@ -268,13 +268,39 @@ a{
     .row{
         grid-template-columns: repeat(1, 1fr);
     }
+    footer{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 430px) {
     body{
         margin:0 auto;
         margin-left: 5%;
     }
+    .sales{
+        flex-wrap: wrap;
+        height: 180px;
+        width: 430px;
+    }
+    .row a{
+        min-width: 430px;
+    }
+    #img-header{
+        min-width: max-content;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+footer{
+    display: flex;
 }
 
 .footer{
