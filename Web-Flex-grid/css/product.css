@@ -69,26 +69,85 @@ footer .list a:hover{
 #confianza-online{
     width: 150px;
 }
-/*body*/
+
+
+
+/*Grid configuration*/
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 1%;
 }
-.header{
-    width: 100%;
-    border: 1px solid black;
-    text-align: center;
-}
-.element1{
-    grid-column: 1/5;
-    justify-self: center;
-    border: 2px solid #e4b8b8;
-}
+
+
 .grid-right{
     grid-column: 3/5;
     justify-content: center;
+    background-color: violet;
 }
-.element2{
+.grid-left{
+    grid-column: 1/3;
+    background-color: teal;
+}
+.grid-center{
+    grid-column: 1/5;
+    background-color: yellowgreen;
+}
+/*header*/
+.header{
+    width: 100%;
+    border: 1px solid #8f8f8f;
+    text-align: center;
+}
+
+.btn-access{
+    grid-column: 1/5;
+    justify-content: center;
+    text-align: center;
+}
+.btn-access li{
+    background-color: #e4b8b8;
+    opacity: 0.5;
+    list-style: none;
+    display: inline;
+    padding: 1px 5px;
+}
+
+.flecha {
+    position: relative;
+    height: 20px;
+    width: 80px;
+    border: solid 1px #e4b8b8;
+    border-right: none;
+    background: #e4b8b8 ;
+}
+
+.flecha:after {
+    position: absolute;
+    top: 3.5px;
+    right: -6px;
+    width: 12px;
+    height: 16px;
+    border-left: solid 1px #e4b8b8;
+    border-top: solid 1px #e4b8b8;
+    transform: rotate(134deg) skewX(-10deg) skewY(-10deg);
+    background: #e4b8b8;
+    content: '';
+  }
+
+/*Left column*/
+.galery{
+    width: 500px;
+    height: 100px;
+}
+.img-principal{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right column*/
+.price{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     justify-items: center;
@@ -121,6 +180,9 @@ footer .list a:hover{
     box-shadow: 1px 5px 10px #8f8f8f;
 }
 .handmade{
+    justify-content: center;
+}
+.handmade img{
     width: 50px;
     height: 50px;
 }
