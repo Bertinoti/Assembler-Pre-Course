@@ -13,26 +13,45 @@ body{
     display: flex;
 }
 
-nav a{
+/* nav a{
     padding: 0;
+} */
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    background-color:rgba(228, 184, 184, 0.8);
 }
 
-.nav-header{
-    align-items: center;
-    justify-content: space-around;
-    height: 50px;
-    overflow: hidden;
-    text-transform: uppercase;
+.menu li {
+    font-size: 1.5em;
+    padding: 10px 5px;
+    white-space: nowrap;
 }
 
-.nav-header a{
-    color: black;
+.menu a{
+    color: white;
     text-decoration: none;
-    font-size: 12px;
-    align-self: center;
 }
 
-.nav-header a:hover{
+.logo{
+    margin: auto;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    /* display: none; */
+}
+
+.menu a:hover{
     color: #bb943f;
     text-decoration: none;
 }
@@ -260,6 +279,33 @@ section a{
 }
 
 /*-------------------------------------*/
+@media all and (min-width: 900px) {
+    .item {
+        /* display: block; */
+        width: auto;
+    }
+    .logo {
+        position: static;
+        margin: 0;
+        order: 0;
+    }
+    .item {
+
+        justify-content: center;
+        align-self:center;
+        order: 1;
+    }
+    .menu{
+        justify-content: space-around;
+        margin: 0 auto;
+        height: 50px;
+        flex-wrap: nowrap;
+    }
+    .menu li{
+        font-size: 1.2em;
+        padding: 0;
+    }
+}
 
 @media screen and (max-width: 960px){
     body{
@@ -277,13 +323,16 @@ section a{
 
 @media screen and (max-width: 430px) {
     body{
-        margin:0 auto;
-        margin-left: 5%;
+        max-width: 430px;
+        width: fit-content;
+    }
+    .row{
+        grid-template-columns: repeat(1, 430px);
     }
     .sales{
         flex-wrap: wrap;
         height: 180px;
-        width: 430px;
+        width: 400px;
     }
     .row a{
         min-width: 430px;
@@ -313,9 +362,6 @@ footer .list{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     text-align: left;
-}
-ul :first-child{
-    margin-top: 15px;
 }
 
 footer .list li{
