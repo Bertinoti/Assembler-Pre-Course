@@ -129,10 +129,6 @@ order: 1;
 /* Desktop menu */
 
 @media all and (min-width: 900px) {
-    .menu{
-
-        align-self: ;
-    }
     .item {
         /* display: block; */
         width: auto;
@@ -159,4 +155,4 @@ order: 1;
     /* .menu li.button {
         padding-right: 0;
     } */
-} */
+}
