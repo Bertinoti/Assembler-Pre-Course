@@ -1,7 +1,7 @@
 body{
     font-family: 'Playfair Display', serif;
     max-width: 960px;
-    background-color: #e0e0e0;
+    background-color: white;
     margin: 0 auto;
     padding: 0;
 }
@@ -117,25 +117,38 @@ footer .list a:hover{
     height: 50px;
     width: 100%;
     color: #e0e0e0;
-    text-transform: uppercase;
     font-weight: bold;
     box-shadow: 1px 5px 10px #8f8f8f;
 }
 .handmade{
-    text-align: center;
-    background-color: #bb943f;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
-.detail{
 
+.detail{
+    text-align: center;
+    border-bottom: 2px solid #8f8f8f;
 }
 
 .miniature{
     width: 100px;
     height: 100px;
     object-fit: cover;
-    margin-left: 1%;
+    margin-left: 2%;
 }
+.acabados{
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.recomended{
+    font-weight: bold;
+    text-align: center;
+}
+
 /*Galery Slider*/
 
 /*.slide-img{
