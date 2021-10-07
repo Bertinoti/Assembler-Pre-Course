@@ -7,29 +7,46 @@ body{
 }
 
 /*menubar*/
-.container{
-    width: 100%;
-    margin: auto;
-    text-align: center;
+.menu{
+    list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    background-color:rgba(228, 184, 184, 0.8);
 }
-.nav-header{
-    align-items: center;
-    justify-content: space-around;
-    height: 50px;
-    overflow: hidden;
-    text-transform: uppercase;
+
+.menu li {
+    font-size: 1.5em;
+    padding: 10px 5px;
+    white-space: nowrap;
 }
-.nav-header a{
-    color: black;
+
+.menu a{
+    color: white;
     text-decoration: none;
-    font-size: 12px;
-    align-self: center;
 }
-.nav-header a:hover{
+
+.logo{
+    margin: auto;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    /* display: none; */
+}
+
+.menu a:hover{
     color: #bb943f;
     text-decoration: none;
 }
+
 #logo{
     width: 50px;
 }
@@ -325,7 +342,7 @@ footer .list a:hover{
 }
 
 /*Bottom Grid*/
-.item{
+.preduct{
     display: inline-block;
     margin-left: 5%;
     margin-right: 5%;
