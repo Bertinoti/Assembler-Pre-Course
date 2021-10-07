@@ -280,17 +280,13 @@ section a{
 
 /*-------------------------------------*/
 @media all and (min-width: 900px) {
-    .item {
-        /* display: block; */
-        width: auto;
-    }
     .logo {
         position: static;
         margin: 0;
         order: 0;
     }
     .item {
-
+        width: auto;
         justify-content: center;
         align-self:center;
         order: 1;

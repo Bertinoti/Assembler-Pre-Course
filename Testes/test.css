@@ -156,3 +156,13 @@ order: 1;
         padding-right: 0;
     } */
 }
+
+.text-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-img div{
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+}
